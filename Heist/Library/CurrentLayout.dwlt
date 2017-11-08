@@ -24,10 +24,14 @@ MonoBehaviour:
 =======
   m_RootView: {fileID: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Development:Heist/Library/CurrentLayout.dwlt
   m_MinSize: {x: 950, y: 300}
 =======
   m_MinSize: {x: 950, y: 392}
+>>>>>>> Development
+=======
+  m_MinSize: {x: 950, y: 300}
 >>>>>>> Development
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
@@ -66,7 +70,7 @@ MonoBehaviour:
 >>>>>>> master
 =======
     height: 637
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 >>>>>>> Development:Heist/Library/CurrentLayout.dwlt
 --- !u!114 &3
@@ -167,14 +171,18 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 587
-  m_MinSize: {x: 783, y: 342}
-  m_MaxSize: {x: 16008, y: 8042}
+  m_MinSize: {x: 787, y: 342}
+  m_MaxSize: {x: 16012, y: 8042}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 25
 >>>>>>> Development:Heist/Library/CurrentLayout.dwlt
 =======
   controlID: 138
+>>>>>>> Development
+=======
+  controlID: 75
 >>>>>>> Development
 --- !u!114 &6
 MonoBehaviour:
@@ -201,14 +209,18 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
 =======
     height: 587
-  m_MinSize: {x: 783, y: 342}
-  m_MaxSize: {x: 16008, y: 8042}
+  m_MinSize: {x: 787, y: 342}
+  m_MaxSize: {x: 16012, y: 8042}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 26
 >>>>>>> Development:Heist/Library/CurrentLayout.dwlt
 =======
   controlID: 139
+>>>>>>> Development
+=======
+  controlID: 76
 >>>>>>> Development
 --- !u!114 &7
 MonoBehaviour:
@@ -230,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 890
     height: 587
-  m_MinSize: {x: 506, y: 342}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 510, y: 342}
+  m_MaxSize: {x: 12010, y: 8042}
   vertical: 1
-  controlID: 101
+  controlID: 77
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,8 +274,8 @@ MonoBehaviour:
     y: 0
     width: 890
     height: 276
-  m_MinSize: {x: 506, y: 221}
-  m_MaxSize: {x: 12006, y: 4021}
+  m_MinSize: {x: 510, y: 221}
+  m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
 <<<<<<< HEAD
   controlID: 28
@@ -372,8 +384,8 @@ MonoBehaviour:
     y: 0
     width: 105
     height: 276
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -398,8 +410,8 @@ MonoBehaviour:
     y: 276
     width: 890
     height: 311
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
@@ -615,6 +627,7 @@ MonoBehaviour:
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: ce280000
     m_LastClickedID: 10446
     m_ExpandedIDs: dce8ffff60edffffb6f3ffff9cfbffff00000000
@@ -623,6 +636,11 @@ MonoBehaviour:
     m_SelectedIDs: 46010000
     m_LastClickedID: 0
     m_ExpandedIDs: 00ebffff02ebffff46ecffff62edffff9efbffff00000000
+>>>>>>> Development
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a6fbffff00000000
 >>>>>>> Development
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1031,7 +1049,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 2a270000
     m_LastClickedID: 10026
-    m_ExpandedIDs: 000000002a27000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000028270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1059,7 +1077,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a270000
+    m_ExpandedIDs: 0000000028270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
