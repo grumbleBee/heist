@@ -20,6 +20,6 @@ public class BasicMovement : MonoBehaviour {
 
         transform.Translate(movement * movementSpeed * Time.deltaTime);
 
-        transform.Rotate(0, Input.GetAxis("rightHorizontal"), 0);
+        transform.Rotate(0, Input.GetAxis("rightHorizontal") * movementSpeed, 0);
     }
 }
