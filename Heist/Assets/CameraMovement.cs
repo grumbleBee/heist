@@ -7,7 +7,7 @@ public class CameraMovement : MonoBehaviour {
     public Transform target;
     public float cameraMin;
     public float cameraMax;
-    float cameraDistance;
+    public float cameraDistance;
     float zPosition;
     float yPosition;
     public bool inverted = false;
@@ -39,7 +39,6 @@ public class CameraMovement : MonoBehaviour {
         }
 
         //Debug.Log(yPosition);
-
         Vector3 movement = new Vector3(transform.localPosition.x, yPosition, Mathf.Clamp(zPosition, cameraMin, cameraMax));
 
         transform.localPosition = movement; 
