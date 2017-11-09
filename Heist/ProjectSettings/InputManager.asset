@@ -33,7 +33,7 @@ InputManager:
     dead: 0.13
     sensitivity: 3
     snap: 0
-    invert: 0
+    invert: 1
     type: 2
     axis: 1
     joyNum: 1
@@ -52,7 +52,7 @@ InputManager:
     invert: 0
     type: 2
     axis: 2
-    joyNum: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: rightVertical
     descriptiveName: 
@@ -68,4 +68,4 @@ InputManager:
     invert: 0
     type: 2
     axis: 5
-    joyNum: 2
+    joyNum: 1
