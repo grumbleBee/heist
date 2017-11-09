@@ -20,7 +20,22 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 371}
+=======
+=======
+  m_RootView: {fileID: 2}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Development:Heist/Library/CurrentLayout.dwlt
+  m_MinSize: {x: 950, y: 300}
+=======
+  m_MinSize: {x: 950, y: 392}
+>>>>>>> Development
+=======
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Development
+>>>>>>> cfbaf8768099d3bb49b57d4446e4bfbe85967cab
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -120,8 +135,30 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
+<<<<<<< HEAD
   m_Selected: 1
   m_LastSelected: 0
+=======
+  m_Selected: 0
+  m_LastSelected: 1
+=======
+    y: 30
+    width: 1280
+    height: 587
+  m_MinSize: {x: 787, y: 342}
+  m_MaxSize: {x: 16012, y: 8042}
+  vertical: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 25
+>>>>>>> Development:Heist/Library/CurrentLayout.dwlt
+=======
+  controlID: 138
+>>>>>>> Development
+=======
+  controlID: 75
+>>>>>>> Development
+>>>>>>> cfbaf8768099d3bb49b57d4446e4bfbe85967cab
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,6 +182,24 @@ MonoBehaviour:
     height: 637
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
+<<<<<<< HEAD
+=======
+=======
+    height: 587
+  m_MinSize: {x: 787, y: 342}
+  m_MaxSize: {x: 16012, y: 8042}
+  vertical: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 26
+>>>>>>> Development:Heist/Library/CurrentLayout.dwlt
+=======
+  controlID: 139
+>>>>>>> Development
+=======
+  controlID: 76
+>>>>>>> Development
+>>>>>>> cfbaf8768099d3bb49b57d4446e4bfbe85967cab
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,7 +420,41 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a4270000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000006270000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000030270000
+=======
+    m_ExpandedIDs: 00000000da260000
+>>>>>>> camera
+>>>>>>> master
+=======
+    y: 92
+    width: 203
+    height: 255
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_SelectedIDs: ce280000
+    m_LastClickedID: 10446
+    m_ExpandedIDs: dce8ffff60edffffb6f3ffff9cfbffff00000000
+>>>>>>> Development:Heist/Library/CurrentLayout.dwlt
+=======
+    m_SelectedIDs: 46010000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00ebffff02ebffff46ecffff62edffff9efbffff00000000
+>>>>>>> Development
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a6fbffff00000000
+>>>>>>> Development
+>>>>>>> cfbaf8768099d3bb49b57d4446e4bfbe85967cab
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
