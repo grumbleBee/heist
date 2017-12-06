@@ -38,7 +38,6 @@ public class CameraMovement : MonoBehaviour {
             yPosition = 0;
         }
 
-        //Debug.Log(yPosition);
         Vector3 movement = new Vector3(transform.localPosition.x, yPosition, Mathf.Clamp(zPosition, cameraMin, cameraMax));
 
         transform.localPosition = movement; 

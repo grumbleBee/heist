@@ -69,6 +69,7 @@ InputManager:
     type: 2
     axis: 5
     joyNum: 1
+<<<<<<< HEAD
   - serializedVersion: 3
     m_Name: sneakAxis
     descriptiveName: 
@@ -85,3 +86,5 @@ InputManager:
     type: 2
     axis: 3
     joyNum: 1
+=======
+>>>>>>> origin/camera
