@@ -14,7 +14,7 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0.13
+    dead: 0.013
     sensitivity: 3
     snap: 0
     invert: 0
@@ -30,7 +30,7 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 3
-    dead: 0.13
+    dead: 0.001
     sensitivity: 3
     snap: 0
     invert: 1
@@ -45,11 +45,11 @@ InputManager:
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 0
-    dead: 0.13
+    gravity: 3
+    dead: 0.1
     sensitivity: 3
     snap: 0
-    invert: 0
+    invert: 1
     type: 2
     axis: 2
     joyNum: 1
@@ -61,15 +61,14 @@ InputManager:
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 0
-    dead: 0.13
+    gravity: 3
+    dead: 0.1
     sensitivity: 3
     snap: 0
     invert: 0
     type: 2
     axis: 5
     joyNum: 1
-<<<<<<< HEAD
   - serializedVersion: 3
     m_Name: sneakAxis
     descriptiveName: 
@@ -78,13 +77,11 @@ InputManager:
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 0
-    dead: 0.13
+    gravity: 3
+    dead: 0.001
     sensitivity: 3
     snap: 1
     invert: 0
     type: 2
     axis: 3
     joyNum: 1
-=======
->>>>>>> origin/camera

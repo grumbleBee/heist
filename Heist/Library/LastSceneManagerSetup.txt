@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CameraTest.unity
+- path: Assets/Test Scenes/Enemy AI Test.unity
   isLoaded: 1
   isActive: 1

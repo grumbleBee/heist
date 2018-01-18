@@ -25,7 +25,7 @@ public class BasicMovement : MonoBehaviour {
         movement = transform.TransformDirection(movement);
         //transform.Translate(movement * movementSpeed * Time.deltaTime);
         //transform.Rotate(0, Input.GetAxis("rightHorizontal") * movementSpeed, 0);
-        rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, Input.GetAxis("rightHorizontal") * movementSpeed, 0f));
+        rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, Input.GetAxis("rightHorizontal") * (movementSpeed / 2), 0f));
         if (sneakAxis > -1f)
         {
             rb.MovePosition(rb.position + movement * sneakAxis * Time.deltaTime);
