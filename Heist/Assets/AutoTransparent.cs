@@ -3,8 +3,11 @@ using System.Collections;
 
 public class AutoTransparent : MonoBehaviour
 {
-    private Shader oldShader = null;
-    private Color oldColor = Color.black;
+    public Material transMaterial;
+    private Shader transShader;
+    private Shader defaultShader;
+    private Material defaultMaterial;
+    private Color defaultColor;
     private float transparency = 0.3f;
     private const float targetTransparancy = 0.3f;
     private const float fallOff = 0.1f;
@@ -14,18 +17,18 @@ public class AutoTransparent : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         rend.enabled = true;
+        defaultShader = rend.material.shader;
+        defaultMaterial = rend.material;
+        defaultColor = rend.material.color;
+        transMaterial = (Resources.Load("Transparency", typeof(Material)) as Material);
+        transShader = transMaterial.shader;
     }
 
     public void BeTransparent()
     {
         transparency = targetTransparancy;
-
-        if (oldShader == null)
-        {
-            oldShader = rend.material.shader;
-            oldColor = rend.material.color;
-            rend.material.shader = Shader.Find("Transparent/Diffuse");
-        }
+        //yell at me daddy ;)
+        rend.material.shader = transShader;
     }
 
     void Update()
@@ -38,8 +41,9 @@ public class AutoTransparent : MonoBehaviour
         }
         else
         {
-            rend.material.shader = oldShader;
-            rend.material.color = oldColor;
+            rend.material = defaultMaterial;
+            rend.material.color = defaultColor;
+            rend.material.shader = defaultShader;
             Destroy(this);
         }
 

@@ -8,7 +8,8 @@ public class Transparency : MonoBehaviour
     void Update()
     {
         RaycastHit[] hits;
-        hits = Physics.RaycastAll(transform.position, transform.forward, distance);
+        int layerMask = 1 << 8;
+        hits = Physics.RaycastAll(transform.position, transform.forward, distance, layerMask);
 
         for (int i = 0; i < hits.Length; i++)
         {

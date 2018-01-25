@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -193,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e1c8eb389e5e34f8394e1239261087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 5
+  distance: 7.071068
 --- !u!1001 &674269473
 Prefab:
   m_ObjectHideFlags: 0
@@ -242,6 +243,26 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 114597701847448540, guid: bbabb26ad50039c45940351980a6c8c8,
+        type: 2}
+      propertyPath: cameraDistance
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114597701847448540, guid: bbabb26ad50039c45940351980a6c8c8,
+        type: 2}
+      propertyPath: cameraMin
+      value: -7.071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 114597701847448540, guid: bbabb26ad50039c45940351980a6c8c8,
+        type: 2}
+      propertyPath: cameraSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114654942377369922, guid: bbabb26ad50039c45940351980a6c8c8,
+        type: 2}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbabb26ad50039c45940351980a6c8c8, type: 2}
   m_IsPrefabParent: 0
@@ -256,7 +277,7 @@ GameObject:
   - component: {fileID: 756496598}
   - component: {fileID: 756496597}
   - component: {fileID: 756496596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +298,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 575db99a27c8e3a44b5d359b636f047b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -340,7 +361,7 @@ GameObject:
   - component: {fileID: 923099865}
   - component: {fileID: 923099864}
   - component: {fileID: 923099863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +382,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 812a9ed737695844c9b29f6b6dcf56ef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -474,9 +495,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &1429261750
